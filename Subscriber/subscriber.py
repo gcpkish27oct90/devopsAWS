@@ -7,4 +7,5 @@ def lambda_handler(event, context):
         'body': json.dumps('Hello from terrafform scripts')
         'status': SUCCESS
         'logtype': log
+        'event` : Trigger
     }
