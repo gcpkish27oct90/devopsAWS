@@ -6,4 +6,5 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('Hello from terrafform scripts')
         'status': SUCCESS
+        'logtype': log
     }
